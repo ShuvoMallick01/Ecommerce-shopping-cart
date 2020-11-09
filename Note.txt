@@ -1,0 +1,17 @@
+mt = margin top
+gx = gatter x means horizontaly g means horizontally and vertically boths 
+md = medium device
+lg = large
+mx-auto= Auto Center 
+mb= margin bottom 
+p= padding
+px= p means padding x horizontally left and right
+d-flex= Display Flex
+col-md-12 = Coloumn Medium Device a Full Means 12
+col-lg-4 = Coloumn Large Device a 4 only
+col-11= Mobile Device for Coloumn 11
+mt-lg-0= Margin top for Large Device 0
+mt-md-5= Margin top for medium Device 5
+p-3= Padding for both side 3
+<hr>= tag to define thematic changes in the content:
+
