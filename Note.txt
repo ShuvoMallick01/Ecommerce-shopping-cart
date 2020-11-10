@@ -15,4 +15,7 @@ mt-md-5= Margin top for medium Device 5
 p-3= Padding for both side 3
 <hr>= tag to define thematic changes in the content:
 rem= Root em (Relative to font-size of the root element)/1 rem = 16px 
+::after=    ::after selector inserts something after the content of each selected element(s).
+
+
 
