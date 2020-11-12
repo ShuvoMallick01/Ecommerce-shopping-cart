@@ -139,7 +139,7 @@
                                     <div class="collapse" id="collapaseExample">
                                         <div class="mt-3">
                                             <input type="text" name="" id="discount_code1" class="form-control font-weight-bold" placeholder="Enter the discount code">
-                                            <small id="error_trw" class="text-dark mt-3">code is shuvamallick</small>
+                                            <small id="error_trw" class="text-dark mt-3">Coupon code is shuva</small>
                                         </div>
                                         <button class="btn btn-primary btn-sm mt-3" onclick="discount_code()">Apply</button>
                                     </div>
@@ -211,14 +211,14 @@
 
         const discount_code = () => {
             let totalamtcurr = parseInt(total_cart_amt.innerHTML);
-            let error_trw = document.getElementById('error_trw');
+            let errortrw = document.getElementById('error_trw');
 
             if (discountCode.value == 'shuva') {
-                let newTotalamt = newTotalamt - 20;
+                let newTotalamt = totalamtcurr - 20;
                 total_cart_amt.innerHTML = newTotalamt;
-                error_trw.innerHTML = "Successfully Applyed Coupon!";
+                errortrw.innerHTML = "Successfully Applyed Coupon!";
             } else {
-                error_trw.innerHTML = "Wrong Coupn.. Try again";
+                errortrw.innerHTML = "Wrong Coupn.. Try again";
 
             }
         }
